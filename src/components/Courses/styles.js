@@ -32,8 +32,8 @@ export const CoursesBox = styled.div`
   justify-content: space-between;
   align-items: center;
   width: 45%;
-  padding: 20px;
-  min-width: 470px;
+  padding: 10px;
+  min-width: 310px;
   border-style: solid;
   border-width: 1px;
   border-color: #fff;
@@ -52,6 +52,7 @@ export const CourseContainer = styled.div`
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
+  flex-wrap: wrap;
 `;
 export const CourseName = styled.div`
   display: flex;
@@ -64,6 +65,7 @@ export const CourseName = styled.div`
 export const CourseDescription = styled.div`
   display: flex;
   width: 100%;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -98,6 +100,8 @@ export const CourseTitle = styled.h2`
   color: #fff;
   font-family: 'Calibri', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva,
     Verdana, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
 `;
 export const CoursesText = styled.p`
   color: #fff;
@@ -111,7 +115,7 @@ export const CourseCertificate = styled.img`
   margin-bottom: 15px;
 
   @media (max-width: 1300px) {
-    width: 80%;
+    width: 90%;
   }
   &:hover {
     cursor: pointer;

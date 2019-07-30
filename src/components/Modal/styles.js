@@ -12,40 +12,38 @@ export const Container = styled.div`
   height: 100%;
   z-index: 1;
 
-  background: rgba(10, 10, 10, 0.6);
+  background: rgba(10, 10, 10, 0.9);
 `;
 export const ImageContainer = styled.div`
   display: flex;
   align-items: center;
   position: relative;
   justify-content: center;
+  flex-direction: column;
   width: 90%;
   height: 90%;
   z-index: 5;
 `;
 export const CloseButton = styled.a`
-  width: 40px;
+  width: 200px;
   height: 40px;
-  border-radius: 20px;
-  background: #fff;
+  border-radius: 4px;
+  background: #ff6961;
+  color: #fff;
   text-decoration: none;
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  top: 0;
-  right: 0;
   margin-right: 10px;
   font-size: 22px;
+  margin-bottom: 5px;
+  font-family: 'Calibri', Tahoma, Geneva, Verdana, sans-serif;
   &:hover {
     cursor: pointer;
-    width: 50px;
-    height: 50px;
-    border-radius: 25px;
   }
 `;
 export const Image = styled.img`
   margin: 0 auto;
-  max-height: 100%;
-  max-width: 100%;
+  max-height: 95%;
+  max-width: 95%;
 `;

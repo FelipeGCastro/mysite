@@ -105,7 +105,7 @@ export const Email = styled.span`
 `;
 export const EmailIcon = styled(FaEnvelope)`
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   margin: 0 15px;
 `;
 

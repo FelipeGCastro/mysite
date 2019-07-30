@@ -19,7 +19,7 @@ export default class Modal extends Component {
     return (
       <Container visible={visible}>
         <ImageContainer>
-          <CloseButton onClick={() => onRequestClose()}>X</CloseButton>
+          <CloseButton onClick={() => onRequestClose()}>Close</CloseButton>
           <Image src={image} alt="ImageModal" />
         </ImageContainer>
       </Container>

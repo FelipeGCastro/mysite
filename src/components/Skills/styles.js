@@ -27,23 +27,9 @@ export const SkillBox = styled.div`
   margin: 5px;
   height: 200px;
   min-width: 300px;
-  @media (max-width: 721px) {
+  /* @media (max-width: 721px) {
     min-width: 80%;
-  }
-  @media (max-width: 1067px) {
-    &:last-of-type {
-      background: linear-gradient(#0abab5, #b4c3ff, #00c1a9, #02b3d8);
-      background-size: 400% 400%;
-      animation-duration: 10s;
-      animation-timing-function: ease;
-      animation-delay: 0s;
-      animation-iteration-count: infinite;
-      animation-direction: normal;
-      animation-fill-mode: none;
-      animation-play-state: running;
-      animation-name: Gradient;
-    }
-  }
+  } */
 
   -webkit-box-shadow: 0px 2px 4px -2px rgba(92, 92, 92, 1);
   -moz-box-shadow: 0px 2px 4px -2px rgba(92, 92, 92, 1);
@@ -83,9 +69,9 @@ export const SkillBoxDown = styled.div`
   margin: 5px;
   height: 200px;
   min-width: 300px;
-  @media (max-width: 721px) {
-    min-width: 80%;
-  }
+  /* @media (max-width: 721px) {
+    min-width: 40%;
+  } */
 
   -webkit-box-shadow: 0px 2px 4px -2px rgba(92, 92, 92, 1);
   -moz-box-shadow: 0px 2px 4px -2px rgba(92, 92, 92, 1);

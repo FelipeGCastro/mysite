@@ -10,7 +10,7 @@ export const ProjectsContainer = styled.div`
 export const ProjectBox = styled.div`
   display: flex;
   width: 30%;
-  min-width: 340px;
+  min-width: 310px;
   margin-right: 10px;
   flex-direction: column;
   justify-content: center;
