@@ -59,7 +59,7 @@ export default class Courses extends Component {
     const { visible, image } = this.state;
     return (
       <CoursesContainer>
-        <CoursesTitle>Courses</CoursesTitle>
+        <CoursesTitle>Education</CoursesTitle>
         <CoursesBox>
           <CourseContainer>
             <CourseImage src={Rocketseat} alt="RocketSeat" />

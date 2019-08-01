@@ -68,7 +68,7 @@ export default class Home extends Component {
               <MenuLink href="#courses">
                 <CoursesIcon />
                 <GoTo className="menuName" href="#courses">
-                  Courses
+                Education
                 </GoTo>
               </MenuLink>
             </MenuItem>
