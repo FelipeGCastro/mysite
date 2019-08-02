@@ -1,5 +1,5 @@
 import React from 'react';
-import Perfil from '../../assets/Eu.jpg';
+import Perfil from '../../assets/Eu.jpeg';
 
 import {
   InfoContainer,
