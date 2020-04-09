@@ -28,10 +28,6 @@ const Header = () => (
         <EmailIcon />
         <Email>felipe1693@gmail.com</Email>
       </EmailContainer>
-      <LocationContainer>
-        <PhoneIcon />
-        <Location>+351 935 834 515</Location>
-      </LocationContainer>
       <EmailContainer>
         <AgeIcon />
         <Email>25 years old</Email>
