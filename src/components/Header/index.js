@@ -1,5 +1,6 @@
 import React from 'react';
 import Perfil from '../../assets/Eu.jpeg';
+import moment from 'moment'
 
 import {
   InfoContainer,
@@ -10,7 +11,6 @@ import {
   LocationIcon,
   Location,
   NationalityIcon,
-  PhoneIcon,
   AgeIcon,
   ProfileContainer,
   ProfileImage,
@@ -18,7 +18,8 @@ import {
   ProfileOcupation,
 } from './styles';
 
-const Header = () => (
+const Header = () => {
+  return (
   <ProfileContainer id="home">
     <ProfileImage src={Perfil} alt="Profile" />
     <ProfileName>Luiz Felipe Castro</ProfileName>
@@ -30,7 +31,7 @@ const Header = () => (
       </EmailContainer>
       <EmailContainer>
         <AgeIcon />
-        <Email>25 years old</Email>
+        <Email>{moment().diff(moment('16-09-1993', 'DD-MM-YYYY'), 'years')} years old</Email>
       </EmailContainer>
       <LocationContainer>
         <LocationIcon />
@@ -42,6 +43,6 @@ const Header = () => (
       </LocationContainer>
     </InfoContainer>
   </ProfileContainer>
-);
+)};
 
 export default Header;
